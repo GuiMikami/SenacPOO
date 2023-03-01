@@ -14,8 +14,9 @@ public class Livros extends Produtos{
     }
 
     @Override
-    public void retornarDados() {
+    public String retornarDados() {
         super.retornarDados();
-        System.out.println("Autor: " + getAutor());
+        return "Descrição: " + getNome() + " " + "Preço: "
+                + getPreco() + " " + "Autor: " + getAutor();
     }
 }

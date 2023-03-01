@@ -25,9 +25,9 @@ public class Eletronicos extends Produtos{
     }
 
     @Override
-    public void retornarDados() {
+    public String retornarDados() {
         super.retornarDados();
-        System.out.println("Marca: " + getMarca());
-        System.out.println("Modelo: " + getModelo());
+        return "Descrição: " + getNome() + " " +"Preço: " + getPreco() + " " + "Marca: " + getMarca() +
+                " " + "Modelo: " + getModelo();
     }
 }
