@@ -24,6 +24,6 @@ public class Produtos {
     }
 
     public String retornarDados(){
-        return "Descrição: " + this.getNome() + "Preço: " + this.getPreco();
+        return "Descrição: " + getNome() + "Preço: " + getPreco();
     }
 }
