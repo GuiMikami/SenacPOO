@@ -6,7 +6,7 @@ public abstract class Funcionario {
     private String nome;
     private BigDecimal salario;
 
-    public Funcionario(int codigo, String nome, BigDecimal salario) {
+    public Funcionario(int codigo, String nome,BigDecimal salario) {
         this.codigo = codigo;
         this.nome = nome;
         this.salario = salario;
