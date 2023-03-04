@@ -12,6 +12,9 @@ public abstract class Funcionario {
         this.salario = salario;
     }
 
+    public  String retornarDados(){
+       return null;
+    }
     public abstract BigDecimal calculaSalario();
 
     public int getCodigo() {
