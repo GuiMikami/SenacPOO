@@ -16,8 +16,8 @@ public class Gerente extends Funcionario{
     }
     @Override
     public String retornarDados() {
-        return "ID:" + getCodigo() + " " + "Nome:" + getNome() + " " +
-                "Area:" + getArea() + " " + "Salário:R$" + calculaSalario() ;
+        return "ID:" + getCodigo()  + " Nome:" + getNome()  +
+                " Area:" + getArea() + " Salário:R$" + calculaSalario() ;
     }
 
     public String getArea() {

@@ -17,8 +17,8 @@ public class Engenheiro extends Funcionario{
 
     @Override
     public String retornarDados() {
-        return "ID:" + getCodigo() + " " + "Nome:" + getNome() + " " +"CREA:" + getCrea() + " "
-                + "Departamento:" + getDepartamento() + " " + "Salário:R$" + calculaSalario() ;
+        return "ID:" + getCodigo() + " Nome:" + getNome() + " CREA:" + getCrea() + " Departamento:" + getDepartamento() +
+                " Salário:R$" + calculaSalario() ;
     }
 
     public int getCrea() {
