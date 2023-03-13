@@ -1,6 +1,6 @@
 import java.math.BigDecimal;
 
-public class Gerente extends Funcionario{
+public class Gerente extends Funcionario implements Autenticavel{
     private String area;
     private BigDecimal bonus;
 
@@ -34,5 +34,10 @@ public class Gerente extends Funcionario{
 
     public void setBonus() {
         this.bonus = bonus;
+    }
+
+    @Override
+    public void autenticar() {
+        System.out.println("Gerente logado");
     }
 }
