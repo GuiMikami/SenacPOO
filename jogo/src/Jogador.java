@@ -42,4 +42,6 @@ public class Jogador {
     public void receberAntidoto(){
         envenenado = !envenenado;
     }
+
+
 }
